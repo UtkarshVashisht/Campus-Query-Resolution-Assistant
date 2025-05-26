@@ -90,7 +90,7 @@ def login():
 
 # Load and preprocess dataset
 try:
-    dataset = pd.read_csv("C:\\Users\\HP\\Downloads\\vit_college_queries.csv")
+    dataset = pd.read_csv("UPLOAD CSV FILE")
     dataset.fillna("", inplace=True)
 except Exception as e:
     print(f"Error loading dataset: {e}")
